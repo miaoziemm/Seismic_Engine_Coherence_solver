@@ -1,0 +1,8 @@
+coherence_cube_file=Corr_30
+nx=301
+ny=301
+nz=801
+cutpoint=500
+
+direction=2
+// 0: x, 1: y, 2: z

@@ -1,0 +1,11 @@
+layer_fname=layer_z_500.dat
+
+nx=301
+ny=301
+nt=801
+cut_point=500
+
+direction=2
+// 0: x, 1: y, 2: z
+
+

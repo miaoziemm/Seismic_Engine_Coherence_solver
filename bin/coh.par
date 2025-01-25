@@ -1,0 +1,31 @@
+data_cube_file=xingxi1000_1150_1000_1150_1200_2000swap.dat
+coherence_cube_file=xingxi_out_no_dip_coh_sem.bin
+
+
+nx=301
+ny=301
+nt=801
+dx=2
+dy=2
+dt=0.001
+half_window_x=1
+half_window_y=1
+half_window_t=50
+
+type=4
+// 0: Semblance, 1: Variation0, 2: Variation1, 3: Variation2 4: Eigen
+
+dip_type=1
+// 0: no_dip, 1: dip
+half_dip_window=40
+dip_max=0.002
+max_pop=3000
+max_gen=20
+
+dip_result_file=dip_40.dat
+
+along_layer=1
+// 0: no_layer, 1: layer
+
+layer_file=layer_z_500.dat
+layer_result_file=test_layer.dat
