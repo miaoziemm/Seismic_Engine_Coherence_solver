@@ -1,4 +1,4 @@
-GCC=gcc-14
+GCC=gcc
 
 export GCC
 
